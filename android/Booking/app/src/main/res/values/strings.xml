@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BookingApp</string>
+    <string name="secretary">Secretary</string>
+    <string name="patient">Patient</string>
+    <string name="refresh">Refresh</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="id">Id</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="doctor">Doctor</string>
+    <string name="hour">Hour</string>
+    <string name="details">Details</string>
+    <string name="status">Status</string>
+    <string name="welcome">Welcome</string>
+</resources>
