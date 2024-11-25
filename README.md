@@ -9,7 +9,7 @@ npm start
 
 Mobile client application for polyclinic management. A polyclinic uses a mobile application to manage patient bookings. The secretariat confirms the reservations and patients can register a new reservation.
 
-### The following details are stored on the server side:
+## The following details are stored on the server side:
 - Id - Identifier of the reservation. An integer value greater than zero.
 - Name - Name of the patient. A string value.
 - Doctor - A string representing the name of the doctor.
@@ -18,7 +18,7 @@ Mobile client application for polyclinic management. A polyclinic uses a mobile 
 - Details - A string representing the details specified by the patient.
 - Status - A Boolean value that specifies whether the reservation is confirmed or not.
 
-### The application offers the following features:
+## The application offers the following features:
 
 ● Secretary section (separate screen).
 1. View reservations, in a list. Using the GET/open call, the staff will access all unconfirmed reservations in the system. The elements in the list show: the id, name, doctor, date and time of a reservation that are ordered breeder by doctor, date and time. If the application is offline, and we do not have reservations in local database, a corresponding message and a button to retry the call will be displayed. Once the first call succeeds, only the reservations from the offline/local database will be used, no more such calls are made to the server.
